@@ -1,0 +1,11 @@
+[package]
+name = "main"
+version = "0.1.0"
+authors = ["Eugene Gavrilov <me@huncode.com>"]
+edition = "2018"
+
+[dependencies]
+handler = { path = "../function" }
+futures = "0.3"
+hyper = "0.13.1"
+tokio = { version = "0.2.10", features = ["full"] }
