@@ -1,8 +1,8 @@
 [package]
 name = "handler"
-version = "0.1.0"
-authors = ["Piotr Roslaniec <p.roslaniec@gmail.com>"]
+version = "0.0.1"
+authors = ["Eugene Gavrilov <me@huncode.com>"]
 edition = "2018"
 
 [dependencies]
-hyper = "0.12"
+hyper = "0.13"
